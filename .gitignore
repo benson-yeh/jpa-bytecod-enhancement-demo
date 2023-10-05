@@ -35,3 +35,6 @@ out/
 
 ### VS Code ###
 .vscode/
+/src/main/resources/resources.lock.db
+/src/main/resources/resources.mv.db
+/src/main/resources/resources.trace.db
