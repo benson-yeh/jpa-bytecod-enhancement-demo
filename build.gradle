@@ -17,7 +17,6 @@ plugins {
 apply plugin: 'org.hibernate.orm'
 
 hibernate {
-
     enhance {
         enableLazyInitialization = true
     }

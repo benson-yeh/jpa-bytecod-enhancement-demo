@@ -19,6 +19,6 @@ public class Person {
   private String name;
 
   @OneToOne(mappedBy = "person",fetch = FetchType.LAZY)
-  @LazyToOne(LazyToOneOption.PROXY)
+  @LazyToOne(LazyToOneOption.NO_PROXY)
   private PersonDetail personDetail;
 }
